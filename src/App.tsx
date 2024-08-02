@@ -403,7 +403,7 @@ const App = () => {
           <div className='countdown-text'>{counter}</div>
         )} */}
         <button className='button' onClick={fetchUlam} disabled={loading}>
-          {loading ? 'Loading...' : 'BAHALA NA!'}
+          {loading ? 'Loading...' : 'KAHIT ANO!!'}
         </button>
         {ulam && !loading && (
           <div className='recipeContainer'>
