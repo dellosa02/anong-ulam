@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import adoboImage from './adobo.jpg'; // Import the adobo image
 import sinigangImage from './sinigang.jpg';
@@ -412,6 +413,7 @@ const App = () => {
           </div>
         )}
       </div>
+      <Analytics />
     </div>
   );
 };
